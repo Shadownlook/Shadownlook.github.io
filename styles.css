@@ -1,0 +1,112 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    padding: 30px;
+    margin: 0;
+}
+
+/* Contenedor principal del formulario */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Título del formulario */
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Estilo de cada grupo de formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+/* Estilo de los campos de entrada */
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Efecto de foco en los campos de entrada */
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Estilo del área de texto */
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Contenedor de los botones */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Estilo general de los botones */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Estilo del botón "Guardar" */
+button.save {
+    background-color: #28a745;
+    color: white;
+}
+
+button.save:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Estilo del botón "Limpiar" */
+button.clear {
+    background-color: #ffc107;
+    color: white;
+}
+
+button.clear:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+/* Estilo del botón "Cerrar" */
+button.close {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.close:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
