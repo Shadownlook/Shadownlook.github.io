@@ -65,6 +65,8 @@ h2 {
 .buttons {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-top: 20px;
 }
 
@@ -76,6 +78,8 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s, transform 0.2s;
+    flex: 1 1 auto;
+    text-align: center;
 }
 
 /* Estilo del botón "Guardar" */
@@ -108,5 +112,16 @@ button.close {
 
 button.close:hover {
     background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Estilo del botón "Buscar por Apellido" */
+button.search {
+    background-color: #007bff;
+    color: white;
+}
+
+button.search:hover {
+    background-color: #0056b3;
     transform: scale(1.05);
 }
